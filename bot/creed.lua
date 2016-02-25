@@ -236,7 +236,7 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {191772388},--Sudo users = {103365027}
+    sudo_users = {191772388},--Sudo users ={103365027},
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[XAKEP bot 2.3
@@ -363,6 +363,7 @@ function create_config( )
 اعضای اصلی  : 
 سازنده : @Xx_MeHdi_KinG_xX
 
+
 ]],
     help_text = [[
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -466,6 +467,7 @@ function create_config( )
 ------------------------------------------------------------------------------------------------------------
 اعضای اصلی  : 
 سازنده : @Xx_MeHdi_KinG_xX
+
 ]],
   }
   serialize_to_file(config, './data/config.lua')
